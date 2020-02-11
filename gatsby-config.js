@@ -1,29 +1,22 @@
 module.exports = {
   siteMetadata: {
-    title: `Over The Bridge`,
-    description: `Hey, meet Bilal, Kwaku, Patrick &amp; Tom. 4 Black &amp; Mixed-Race guys who became friends whilst studying at Cambridge University. Join us as we talk about life before, during and well - after 'The Bridge'. Expect chats about life, and our own experiences.
-    email: otbpodcastuk@gmail.com
-    Twitter: @otbpodcastuk
-    Cast: 
-    Kwaku: @KwakuDapaah_
-    Patrick: @CariocoLondrino
-    Bilal: @Tweetsbybilal
-    Tom: @TomTheEconomist`,
-    author: `Kwaku, Patrick, Bilal & Tom`,
-    twitter: `https://twitter.com/otbpodcastuk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor`,
-    instagram: `https://www.instagram.com/otbpodcastuk/`,
-    facebook: ``,
+    title: `The Middle`,
+    description: `Keeping the vibes high and the sh*t real. Join us for our weekly podcast show where we celebrate life’s contradictions and introduce woke conversation mixed in with the latest pop culture (with plenty of reality TV references to boot). Together we’re both sides of the story, we’ve totally got you covered, and hey, we’ll meet you in The Middle.`,
+    author: `Hollie Azzopardi & Jordanna Levin`,
+    twitter: ``,
+    instagram: `https://www.instagram.com/the_middle_podcast/`,
+    facebook: `https://www.facebook.com/groups/themiddlepodcast`,
     youtube: ``,
-    apple: `https://podcasts.apple.com/podcast/id1364395842?ct=podlink&mt=2`,
     stitcher: ``,
-    google: `https://podcasts.google.com/?feed=aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6NDA3NTYwNzY0L3NvdW5kcy5yc3M=`,
-    pocket: `https://pca.st/itunes/1364395842`,
-    spotify: `https://open.spotify.com/show/0Lo2a3hwV0nxymHUj2lNIk`,
-    overcast: `https://overcast.fm/itunes1364395842`,
-    castbox: `https://soundcloud.com/overthebridgeuk`,
-    castro: `https://castro.fm/itunes/1364395842`,
-    podbean: `https://www.podbean.com/podcast-detail/g9v5c-68ac3/Over-The-Bridge-Podcast`,
-    beaker: `https://www.breaker.audio/shows?feed_url=http%3A%2F%2Ffeeds.soundcloud.com%2Fusers%2Fsoundcloud%3Ausers%3A407560764%2Fsounds.rss`
+    apple: `https://podcasts.apple.com/us/podcast/feed/id1457786947?at=11lo6V&ct=podnews_podcast`,
+    google: `https://podcasts.google.com/?feed=aHR0cHM6Ly9yc3Mud2hvb3Noa2FhLmNvbS9yc3MvcG9kY2FzdC9pZC84MzM2`,
+    pocket: `http://pca.st/itunes/1457786947`,
+    spotify: `https://open.spotify.com/show/57VOkoPhsHxD6Ga8eKDuTm`,
+    overcast: `https://overcast.fm/itunes1457786947`,
+    castbox: `http://castbox.fm/vic/1457786947?ref=podnews`,
+    castro: `https://castro.fm/itunes/1457786947`,
+    podbean: `https://www.iheart.com/podcast/269-the-middle-29484475/`,
+    beaker: `https://www.breaker.audio/shows?feed_url=https%3A%2F%2Frss.whooshkaa.com%2Frss%2Fpodcast%2Fid%2F8336`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -59,7 +52,7 @@ module.exports = {
         // url: `https://www.gatsbyjs.org/blog/rss.xml`,
         // url: `https://boysinthecave.com/feed/podcast/`,
         // url: `http://boysinthecave.libsyn.com/rss`,
-        url: `http://feeds.soundcloud.com/users/soundcloud:users:407560764/sounds.rss`,
+        url: `https://rss.whooshkaa.com/rss/podcast/id/8336`,
         name: `GatsbyBlog`,
         // Optional
         // Read parser document: https://github.com/bobby-brennan/rss-parser#readme

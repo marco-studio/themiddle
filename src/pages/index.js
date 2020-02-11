@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => {
 
       <div>
         {/* ###############################    HEADER START ########################################### */}
-        <div className={`${albumStyle.slope} bg-gray-200`} />
+        <div className={`${albumStyle.slope} `} />
         <div
           className=" max-w-lg md:max-w-2xl pl-12 pt-16 pr-12 md:flex md:justify-end 
           md:flex-row-reverse m-auto md:pl-4 md:pr-4 lg:max-w-3xl xl:max-w-5xl  xl:m-auto relative mdx:pt-24 lgx:max-w-960 lgx:px-12  xl-mx-0"
@@ -39,7 +39,7 @@ const IndexPage = ({ data }) => {
               By {data.site.siteMetadata.author}
             </div>
             <ul className="md:flex mt-6 hidden text-gray-100">
-              {/* <li className="mr-8">
+              <li className="mr-8">
                 <a href={data.site.siteMetadata.facebook}>
                   <svg
                     width="24"
@@ -55,8 +55,8 @@ const IndexPage = ({ data }) => {
                     />
                   </svg>
                 </a>
-              </li> */}
-              <li className="mr-8">
+              </li>
+              {/* <li className="mr-8">
                 <a href={data.site.siteMetadata.twitter}>
                   <svg
                     width="24"
@@ -72,7 +72,7 @@ const IndexPage = ({ data }) => {
                     />
                   </svg>
                 </a>
-              </li>
+              </li> */}
               <li className="mr-8">
                 <a href={data.site.siteMetadata.instagram}>
                   <svg
@@ -128,18 +128,20 @@ const IndexPage = ({ data }) => {
            md:text-xl"
           />
           <div className="mt-3 text-gray-700 leading-relaxed md:text-xl">
-            Hey, meet Bilal, Kwaku, Patrick &amp; Tom. 4 Black &amp; Mixed-Race
-            guys who became friends whilst studying at Cambridge University.
-            Join us as we talk about life before, during and well - after 'The
-            Bridge'. Expect chats about life, and our own experiences
+            Keeping the vibes high and the sh*t real. Join us for our weekly
+            podcast show where we celebrate life’s contradictions and introduce
+            woke conversation mixed in with the latest pop culture (with plenty
+            of reality TV references to boot). Together we’re both sides of the
+            story, we’ve totally got you covered, and hey, we’ll meet you in The
+            Middle.
           </div>
           <div className="mt-3 text-gray-700 leading-relaxed md:text-xl">
-            Cast:
+            {/* Cast:
             <br /> Kwaku: @KwakuDapaah_ <br /> Patrick: @CariocoLondrino <br />{" "}
-            Bilal: @Tweetsbybilal <br /> Tom: @TomTheEconomist
+            Bilal: @Tweetsbybilal <br /> Tom: @TomTheEconomist */}
           </div>
           <ul className={`flex justify-center mt-12 md:mt-16 text-gray-900`}>
-            {/* <li className="">
+            <li className="">
               <a href={data.site.siteMetadata.facebook}>
                 <svg
                   width="24"
@@ -155,8 +157,8 @@ const IndexPage = ({ data }) => {
                   />
                 </svg>
               </a>
-            </li> */}
-            <li className="">
+            </li>
+            {/* <li className="">
               <a href={data.site.siteMetadata.twitter}>
                 <svg
                   width="24"
@@ -172,7 +174,7 @@ const IndexPage = ({ data }) => {
                   />
                 </svg>
               </a>
-            </li>
+            </li> */}
             <li className="ml-10">
               <a href={data.site.siteMetadata.instagram}>
                 <svg
@@ -243,7 +245,7 @@ const IndexPage = ({ data }) => {
                       {node.itunes.summary}
                     </div>
                     <div className="text-sm text-gray-700 font-medium mt-2">
-                      {formatTime(node.itunes.duration)}
+                      {/* {formatTime(node.itunes.duration)} */}
                     </div>
                   </div>
                 </Link>
@@ -253,7 +255,9 @@ const IndexPage = ({ data }) => {
           <div className="flex justify-center mt-16 lgx:max-w-960 lgx:mx-12">
             <button
               onClick={() => setCount(count + 5)}
-              className="bg-teal-500 text-white font-bold py-3 px-8 rounded"
+              className={`${
+                albumStyle.footer
+              } text-gray-900 font-medium py-3 px-8 rounded`}
             >
               <span>Load More</span>
             </button>
